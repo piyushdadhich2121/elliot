@@ -1,0 +1,241 @@
+.bg-body{
+    background-color: #0e1317 !important;
+    color: ghostwhite;
+}
+
+a{
+    text-decoration: none;
+    color: white !important;
+}
+
+#logo{
+    font-family: cursive;
+}
+
+#logo-2{
+    font-family: cursive;
+}
+
+.header-bar{
+    justify-content: space-between;
+    font-size: medium
+}
+
+.navigation-links a {
+    margin: 0px 10px 0px 10px;
+    transition: box-shadow 0.3 ease-out;
+}
+
+.navigation-links a:hover{
+    color: antiquewhite;
+    text-decoration: none;
+    text-shadow: 0 0 20px  rgba(207, 224, 15, 0.6);
+}
+
+.book-table a{
+    text-align: center;
+    padding: 5px 20px 5px 20px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    text-decoration: none !important;
+}
+
+.book-table a:hover{
+    color: antiquewhite;
+    transition: 0.3s ease-in-out;
+}
+
+.main-banner {
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(../img/main-page-banner.jpg);
+    background-size: 100% 100%;
+    min-height: 600px;
+    position: relative;
+}
+
+.main-banner h2{
+    position: absolute;
+    top: 400px;
+    left: 400px;
+}
+
+.main-banner h3{
+    position: absolute;
+    top: 440px;
+    left: 30px;
+}
+
+.booking-input{
+    margin: 50px 0px ;
+    text-align: center;
+}
+
+.booking-input input,select{
+    background-color: #343a3f;
+    color: aliceblue;
+    padding: 10px 20px 10px 20px;
+    border: none;
+    margin: 0px 30px !important;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.booking-input button{
+    padding: 10px 20px 10px 20px;
+    background: none;
+    text-align: center;
+    color: aliceblue;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    margin: 0px 30px;
+    height: 45px;
+}
+
+.opening-time{
+    display: flex;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.opening-time div {
+    width: 33.33%;
+}
+
+.opening-sec-2 img{
+    width: 100%;
+    height: auto;
+}
+
+hr{
+    background-color: white;
+}
+
+.aboutus{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.aboutus :nth-child(1) {
+    flex-basis: 500px;
+}
+
+.aboutus :nth-child(2){
+    text-align: center;
+    padding: 10px 20px;
+    flex-basis: 500px;
+}
+
+.know-more {
+    color: aliceblue;
+    padding: 10px 20px 10px 20px;
+    background: none;
+    text-align: center;
+    padding: 10px 30px 10px 30px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 3px;
+    margin: 0px 30px;
+    height: 45px;
+}
+
+.special-dish{
+    display: flex;
+}
+
+.special-dish hr {
+    text-decoration: dashed;
+}
+
+.pricing{
+    justify-content: flex-end;
+}
+  
+.food-types p:first-child {
+    flex-grow: 1;
+}
+  
+.food-types p:last-child {
+    flex-grow: 1;
+    margin-left: 20px; /* add 20px margin between the two p tags */
+    text-align: end;
+}
+
+.food-types {
+    justify-content: space-between;
+}
+  
+.food-types p {
+    margin: 0 10px; /* add 10px margin on both sides of each p tag */
+}
+
+.gallery,.our-chef{
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.gallery div{
+    background-size: 100% 280px;
+    background-repeat: no-repeat;
+    width: 27%;
+    height: 320px;
+    border-radius: 10px;
+    background-color: #313437;
+    margin:20px 0px;
+}
+
+.gallery h4{
+    background: none !important;
+    margin-top: 285px;
+    font-size: larger;
+}
+
+.gallery :nth-child(1){
+    background-image: url(../img/gallery-1.jpeg);
+}
+
+.gallery :nth-child(2){
+    background-image: url(../img/gallery-2.jpeg);
+}
+
+.gallery :nth-child(3){
+    background-image: url(../img/gallery-3.jpeg);
+}
+
+.gallery :nth-child(4){
+    background-image: url(../img/gallery-4.jpeg);
+}
+
+.gallery :nth-child(5){
+    background-image: url(../img/gallery-5.jpeg);
+}
+
+.gallery :nth-child(6){
+    background-image: url(../img/gallery-6.jpeg);
+}
+
+.our-chef div{
+    background-size: 100% 350px;
+    background-repeat: no-repeat;
+    width: 27%;
+    height: 350px;
+    border-radius: 10px;
+}
+
+.our-chef h4,h6{
+    background: none !important;
+    margin-top: 360px;
+    font-size: larger;
+}
+
+.our-chef :nth-child(1){
+    background-image: url(../img/gallery-1.jpeg);
+}
+
+.our-chef :nth-child(2){
+    background-image: url(../img/gallery-2.jpeg);
+}
+
+.our-chef :nth-child(3){
+    background-image: url(../img/gallery-3.jpeg);
+}

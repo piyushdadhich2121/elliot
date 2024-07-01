@@ -1,0 +1,21 @@
+@media (max-width:650px) {
+    .navigation-links{
+        display: none;
+    }
+}
+
+@media (max-width:1200px) {
+    #logo{
+        display: none;
+    }
+
+    #logo-2{
+        display: block;
+    }
+}
+
+@media (min-width:1200px) {
+    #logo-2{
+        display: none;
+    }
+}
